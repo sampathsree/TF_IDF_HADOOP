@@ -14,7 +14,7 @@ $ <i>jar -cvf wordcount.jar -C build/ .</i><br/>
 $ <i>hadoop jar wordcount.jar org.myorg.WordCount input DocWordCount</i><br/>
 $ <i>hadoop jar wordcount.jar org.myorg.TermFrequency input TermFrequency</i><br/>
 $ <i>hadoop jar wordcount.jar org.myorg.TFIDF input TFIDF</i><br/>
-- Here “input” is the input folder path.<br/>
+- Here “input” is the input folder path.<br/><br/>
 <b>Note:</b><br/>
 1. Output folder need not be deleted every time we run the command, as I have written code to delete the output folder if it exists.<br/>
 2. TFIDF.java program automatically takes the count of number files present in input folder. No need to modify the code every time we run for multiple files.
